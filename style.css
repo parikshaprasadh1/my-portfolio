@@ -1,1 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+border: 0;
+list-style: none;
+appearance: none;
+}
+
+body{
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+  width: 100vw;
+  height: 100vh;
+  user-select: none;
+  overflow-x: hidden;
+  background-size: cover;
+}
+
+.bg{
+background-size: cover;
+}
+
+a{
+color: white;
+margin-left: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+h1{
+font-weight: 800;
+font-size: 1.8rem;
+color: white;
+}
+
+.navbar{
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+padding: 25px, 10%;
+background: navy;
+display: flex;
+font-size: 2rem;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+
+.navbar logo{
+font-size: 30px;
+}
+
+.navbar ul{
+display: flex;
+}
+
+.navbar ul li{
+font-size: 1rem;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.navbar ul li:hover a,
+.navbar ul li.active a{
+text-decoration: underline;
+}
 
