@@ -17,7 +17,6 @@ body{
   width: 100vw;
   height: 100vh;
   user-select: none;
-  background-color: navy;
   overflow-x: hidden;
   background-size: cover;
 }
@@ -97,3 +96,53 @@ color: navy;
 transform: scale(1.1);
 }
 
+.number{
+position: absolute;
+top: 300px;
+left: 650px;
+}
+
+.number h1{
+font-weight: 200;
+font-size: 1.8rem;
+}
+.number h1 span{
+font-size: 2rem;
+}
+#hid1{
+text-decoration: underline;
+}
+
+#hid1,
+#hid2,
+#hid3,
+#hid4 {
+opacity: 0;
+color: white;
+transform: translateY(-5px);
+transition: opacity 0.5s ease, transform 0.5s ease;
+font-size: 1.5rem;
+margin-left: 150px;
+}
+
+#hid1.show,
+#hid2.show,
+#hid3.show,
+#hid4.show {
+opacity: 1;
+cursor: pointer;
+}
+
+#hid1.show:hover,
+#hid2.show:hover,
+#hid3.show:hover,
+#hid4.show:hover {
+color: lightsteelblue;
+}
+
+#click1,
+#click2,
+#click3,
+#click4 {
+cursor: pointer;
+}
