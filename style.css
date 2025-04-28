@@ -38,6 +38,11 @@ font-size: 2rem;
 color: white;
 }
 
+.fade-out{
+opacity: 0;
+transition: opacity 0.5s ease;
+}
+
 .navbar{
 position: fixed;
 left: 0;
