@@ -5,8 +5,8 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 text-decoration: none;
-filter: blur(0.32px);
 border: 0;
+filter: blur(0.32px);
 list-style: none;
 appearance: none;
 }
@@ -65,7 +65,9 @@ font-size: 1rem;
 margin-left: 10px;
 margin-right: 10px;
 }
-
+.navbar ul li:hover{
+transform: translateY(-5px) scale(1.2);
+}
 .navbar ul li:hover a,
 .navbar ul li.active a{
 text-decoration: underline;
